@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Emojify",
+  "version": "100.0",
+  "icons": {
+    "48":"Poop.png"
+  },
+
+  "browser_action": {
+    "default_icon": "Poop.png"
+  },
+
+  "background": {
+    "scripts" : ["background.js"]
+  },
+
+  "permissions": ["activeTab"]
+}
